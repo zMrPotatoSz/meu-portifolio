@@ -1,0 +1,183 @@
+/* Fonte base para o site */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px; /* tamanho padrão */
+    line-height: 1.6;
+    color: #333;
+}
+
+/* Títulos */
+h1 {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 26px;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+/* Parágrafos e textos gerais */
+p, li, a, button {
+    font-size: 16px;
+}
+
+/* Botões e navegação */
+.nav-btn, button {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+/* Pequeno texto ou observações */
+small, .small-text {
+    font-size: 13px;
+    color: #666;
+}
+
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.fixed-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: #fff;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  z-index: 1000;
+}
+
+.header-left h1 {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+.header-right {
+  display: flex;
+  gap: 20px;
+  padding-right: 30px; /* <-- espaçamento da última aba para a borda direita */
+}
+
+
+.nav-btn {
+  text-decoration: none;
+  color: gray;
+  font-weight: 600;
+  padding: 6px 12px;
+  border-radius: 5px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.nav-btn:hover {
+  background-color: #13379b;
+  color: white;
+  cursor: pointer;
+}
+
+.content {
+  padding-top: 70px;
+}
+
+.sobre-section {
+  margin: 40px 20px;
+  text-align: center;
+}
+
+#toggleSobreBtn {
+  background-color: #ccc;
+  color: #000;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#toggleSobreBtn:hover {
+  background-color: #13379b;
+  color: white;
+}
+
+.hidden {
+  display: none;
+}
+
+#sobreTexto {
+  margin-top: 20px;
+  font-size: 18px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: justify;
+
+  background-color: #f5f5f5;   /* Cor de fundo suave */
+  border: 1px solid #ccc;      /* Borda cinza clara */
+  border-radius: 12px;         /* Cantos arredondados */
+  padding: 20px;               /* Espaçamento interno */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave opcional */
+}
+
+
+.header, .section {
+    margin-bottom: 30px;
+}
+
+#projetos, #habilidades {
+    text-align: center;
+}
+
+.icon {
+    width: 20px;
+    height: 20px;
+    font-size: 20px;
+    vertical-align: middle;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #f5f5f5;
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+    border-top: 1px solid #ccc;
+}
+
+.social-icons {
+    display: flex;
+    gap: 20px;
+}
+
+.icon_f {
+    text-decoration: none;
+    color: gray;
+    font-size: 24px;
+    transition: color 0.3s;
+}
+
+.icon_f:hover {
+    color: black;
+}
+
+
+ul {
+    padding-left: 20px;
+}
